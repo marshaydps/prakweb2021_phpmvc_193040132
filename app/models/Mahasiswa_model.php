@@ -2,7 +2,7 @@
 
 class Mahasiswa_model {
 
-    // cara konek ke databse
+    // cara connect ke database
     //database handler
     private $dbh;
     private $stmt;
@@ -10,7 +10,7 @@ class Mahasiswa_model {
     public function __construct()
     {
         //data source name
-        $dsn = 'mysql:host=localhost;dbname=prakweb2021_phpmvc_193040132';
+        $dsn = 'mysql:host=localhost;dbname=prakweb2021_phpmvc_193040148';
 
         try {
             $this->dbh = new PDO($dsn, 'root', '');
@@ -29,21 +29,21 @@ class Mahasiswa_model {
 
     // private $mhs = [
     //     [
-    //         "nama" => "Marsha",
-    //         "nrp" => "193040132",
-    //         "email" => "marsha@unpas.ac.id",
+    //         "nama" => "Busyro",
+    //         "nrp" => "193040148",
+    //         "email" => "193040148@mail.unpas.ac.id",
     //         "jurusan" => "Teknik Informatika"
     //     ],
     //     [
-    //         "nama" => "Yunita",
-    //         "nrp" => "193040000",
-    //         "email" => "Yunita@unpas.ac.id",
+    //         "nama" => "Trisno",
+    //         "nrp" => "193040002",
+    //         "email" => "193040002@mail.unpas.ac.id",
     //         "jurusan" => "Teknik Informatika"
     //     ],
     //     [
-    //         "nama" => "Dwi",
-    //         "nrp" => "193040001",
-    //         "email" => "Dwi@unpas.ac.id",
+    //         "nama" => "Yuwono",
+    //         "nrp" => "193040010",
+    //         "email" => "193040010@mail.unpas.ac.id",
     //         "jurusan" => "Teknik Informatika"
     //     ],
     // ];
